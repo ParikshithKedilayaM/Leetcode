@@ -3,7 +3,7 @@ package string.medium;
 import java.util.ArrayList;
 import java.util.List;
 
-public class GenerateParanthesis {
+public class GenerateParenthesis {
 	public List<String> generateParenthesis(int n) {
 		List<String> res = new ArrayList<>();
 		paranthesis(res, "", 0, 0, n);
